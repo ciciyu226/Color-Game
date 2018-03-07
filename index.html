@@ -1,9 +1,32 @@
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <title>Color Game</title>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
+  <header>
+    <div id="title"><h1>THE GREAT <span id="pickedColor">"rgb"</span> GUESSING GAME </h1></div>
+    <div id="btn-bar">
+      <div class="container">
+        <span id="new-color">New Colors</span>
+        <button id="reset">Play Again?</button>
+        <span id="message">WELCOME</span>
+        <div id="hard-btn" class="selected">Hard</div>
+        <div id="easy-btn">Easy</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="square"></div>
+    <div id="square"></div>
+    <div id="square"></div>
+    <div id="square"></div>
+    <div id="square"></div>
+    <div id="square"></div>
+  </main>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <script src="colorgame.js"></script>
 </body>
 </html>
